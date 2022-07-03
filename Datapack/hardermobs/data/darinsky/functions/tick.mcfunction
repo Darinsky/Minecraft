@@ -1,0 +1,3 @@
+execute as @e[type=!#darinsky:nobuff,tag=!hbbuff] run data merge entity @s[type=!creeper] {ActiveEffects:[{Id:11,Duration:2147483647,Amplifier:0,ShowParticles:false},{Id:12,Duration:2147483647,Amplifier:0,ShowParticles:false},{Id:1,Duration:2147483647,Amplifier:1,ShowParticles:false}],AbsorptionAmount:10f,Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.88888},{Name:"minecraft:generic.follow_range",Base:108}]}
+execute as @e[type=creeper] run data merge entity @s {AbsorptionAmount:40,Fuse:37}
+execute as @e[type=!#darinsky:nobuff,tag=!hbbuff] run tag @s add hbbuff
